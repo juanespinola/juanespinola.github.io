@@ -5,6 +5,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  /* display: flex; */
+  /* height: 100vh; */
 }
 
 a {
@@ -131,6 +133,11 @@ h6 {
   overflow-y: auto;
 }
 
+.nav-container {
+  display: flex;
+  width: 100%;
+}
+
 @media (max-width: 991px) {
   #header {
     width: 300px;
@@ -148,7 +155,7 @@ h6 {
 }
 
 @media (min-width: 991px) {
-  #main {
+  .main_content {
     margin-left: 100px;
   }
 }
@@ -270,7 +277,7 @@ h6 {
   overflow: hidden;
 }
 
-.mobile-nav-active #header {
+.mobile-nav-active .header_principal {
   left: 0;
 }
 
